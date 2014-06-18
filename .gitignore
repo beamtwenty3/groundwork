@@ -1,0 +1,8 @@
+# System files
+._*
+.*.swp
+.DS_Store
+
+# WordPress files
+.env
+vendor
