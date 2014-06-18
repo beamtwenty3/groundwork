@@ -44,7 +44,8 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 
 ## Further reading
 
-Read [Twelve Factor WordPress] and the [Using Composer with WordPress].
+* [Twelve Factor WordPress] 
+* [Using Composer with WordPress].
 
 
 [Roots.io]: http://roots.io/
