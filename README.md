@@ -10,7 +10,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 
 ## Instructions
 
-* `composer install`
+1. `composer install`
 * Copy `index.php` and `wp-config.php` to root
 * Change `index.php` to correct path:
 ```
