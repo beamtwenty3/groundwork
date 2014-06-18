@@ -42,7 +42,9 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 * Setup dotenv
 * Use provisioning software to re-create above steps
 
-Read [Twelve Factor WordPress] and the [Composer with WordPress].
+## Further reading
+
+Read [Twelve Factor WordPress] and the [Using Composer with WordPress].
 
 
 [Roots.io]: http://roots.io/
@@ -50,4 +52,4 @@ Read [Twelve Factor WordPress] and the [Composer with WordPress].
 [Twelve Factor WordPress]: http://roots.io/twelve-factor-wordpress/
 [screencast]: http://roots.io/screencasts/using-composer-with-wordpress/
 [@swalkinshaw]: https://twitter.com/swalkinshaw
-[Composer with WordPress]: 
+[Using Composer with WordPress]: http://roots.io/using-composer-with-wordpress/
