@@ -9,9 +9,6 @@ vendor
 wp
 
 # app
-app/mu-plugins/!.gitkeep
-app/mu-plugins/
-app/plugins/!.gitkeep
-app/plugins/
-app/themes/!.gitkeep
-app/themes/
+app/mu-plugins/*/
+app/plugins/*/
+app/themes/*/
