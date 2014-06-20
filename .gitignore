@@ -6,3 +6,12 @@
 # WordPress files
 .env
 vendor
+wp
+
+# app
+app/mu-plugins/
+app/mu-plugins/!.gitkeep
+app/plugins/
+app/plugins/!.gitkeep
+app/themes/
+app/themes/!.gitkeep

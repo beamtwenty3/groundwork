@@ -11,37 +11,41 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 ## Instructions
 
 * `composer install`
-* Copy `index.php` and `wp-config.php` to root
+* Copy `index.php` to root
 * Change `index.php` to correct path:
 ```
 require( dirname( __FILE__ ) . '/wp/wp-blog-header.php' );
 ```
-* Change absolute path to WordPress directory in `wp-config.php`
+* Copy `wp-config-sample.php` to `/wp-config.php`
+* Change absolute path to WordPress directory:
 ```
 define('ABSPATH', dirname(__FILE__) . '/wp');
 ```
-* Add autoload to `wp-config.php`:
+* Add autoload to `wp-config.php` at end of file:
 ```
 require 'vendor/autoload.php';
 ```
-* Create `.env` file from `.env.example`, set environment variables
-* Add `.env`, `vendor` to `.gitignore` file
-* Create `.htaccess` in root
-* Copy `wp/wp-content` to `/app`
-* Create custom content directories in `wp-config.php` after database details:
+* Create `.env` file from `.env.example`
+* Set environment variables
+* Create custom content directory in `wp-config.php` after database details, to use `/app` directory:
 ```
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/app' );  
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
+define('CONTENT_DIR', '/app');
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . CONTENT_DIR);
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . CONTENT_DIR);
 ```
-* Set WordPress file permissions
-* Run the WordPress install
+* Set [WordPress file permissions]
+* Run the WordPress install in a browser
 * Change `Site address (URL)` in `Settings > General`
 * Enable permalinks in `Settings > Permalinks`
 
+---
 
 * Setup dotenv
-* Use provisioning software to re-create above steps
-
+* Use provisioning software to re-create above steps. Ansible? Puppet?
+* Add required plugins to `composer.json` `"require": {` and run `composer update`. Eg
+```
+"wpackagist/advanced-custom-fields": "4.3.8"
+```
 ## Further reading
 
 * [Twelve Factor WordPress] 
@@ -54,3 +58,4 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/app' );
 [screencast]: http://roots.io/screencasts/using-composer-with-wordpress/
 [@swalkinshaw]: https://twitter.com/swalkinshaw
 [Using Composer with WordPress]: http://roots.io/using-composer-with-wordpress/
+[WordPress file permissions]: https://gist.github.com/growdigital/a98d3fb9efe575159151
