@@ -12,3 +12,7 @@ wp
 app/mu-plugins/*/
 app/plugins/*/
 app/themes/*/
+
+# Editor project gubbins
+*.sublime-project
+*.sublime-workspace
