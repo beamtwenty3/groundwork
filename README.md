@@ -1,12 +1,13 @@
 # Groundwork
 
+## Status: it works, just about  
+Version: 0.1.0
+
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
 Rather than just use [bedrock], I have pieced this together from [@swalkinshaw]’s thorough [screencast], to increase the size of my brain.
 
 Hopefully this may be useful to web developers who want a well organised, easy to deploy WordPress installation.
-
-**NB: still very much in early stages**
 
 ## Instructions
 
