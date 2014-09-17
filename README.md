@@ -1,7 +1,6 @@
 # Groundwork
 
-## Status: it works, just about  
-Version: 0.1.0
+## Status: WP 4, ACF 5
 
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
