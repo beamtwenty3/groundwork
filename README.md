@@ -34,7 +34,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 * [Twelve Factor WordPress] 
 * [Using Composer with WordPress].
 
-[Salt]: https://api.wordpress.org/secret-key/1.1/salt
+[Salts]: https://api.wordpress.org/secret-key/1.1/salt
 [Roots.io]: http://roots.io/
 [bedrock]: https://github.com/roots/bedrock
 [Twelve Factor WordPress]: http://roots.io/twelve-factor-wordpress/
