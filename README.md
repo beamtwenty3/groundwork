@@ -12,14 +12,15 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 
 * `composer install`
 * Create `.env` file from `.env.example`
-* Set environment variables in your new `.env`
+* Make a nice new database
+* Set environment variables in your new `.env` file
   * Database name
   * Database user
   * Database password
-  * Database host (eg localhost)
-  * Environment definition (eg development)
-  * Home URL (eg http://growdigital.org)
-  * WordPress site URL (eg http://growdigital.org/app)
+  * Database host (eg `localhost`)
+  * Environment definition (eg `development`)
+  * Home URL (eg `http://growdigital.org`)
+  * WordPress site URL (eg `http://growdigital.org/app`)
   * [Salt]
 * Set [WordPress file permissions]
 * Run the WordPress install in a browser
