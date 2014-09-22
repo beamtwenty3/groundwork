@@ -21,7 +21,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
   * Environment definition (eg `development`)
   * Home URL (eg `http://growdigital.org`)
   * WordPress site URL (eg `http://growdigital.org/wp`)
-  * [Salt]
+  * Get your [Salts], add them to `.env`
 * Set [WordPress file permissions]
 * Run the WordPress install in a browser
 * Change `Site address (URL)` in `Settings > General`
