@@ -12,7 +12,15 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 
 * `composer install`
 * Create `.env` file from `.env.example`
-* Set environment variables
+* Set environment variables in your new `.env`
+  * Database name
+  * Database user
+  * Database password
+  * Database host (eg localhost)
+  * Environment definition (eg development)
+  * Home URL (eg http://growdigital.org)
+  * WordPress site URL (eg http://growdigital.org/app)
+  * [Salt]
 * Set [WordPress file permissions]
 * Run the WordPress install in a browser
 * Change `Site address (URL)` in `Settings > General`
@@ -25,7 +33,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 * [Twelve Factor WordPress] 
 * [Using Composer with WordPress].
 
-
+[Salt]: https://api.wordpress.org/secret-key/1.1/salt
 [Roots.io]: http://roots.io/
 [bedrock]: https://github.com/roots/bedrock
 [Twelve Factor WordPress]: http://roots.io/twelve-factor-wordpress/
