@@ -1,6 +1,6 @@
 # Groundwork
 
-## Status: WP 4, ACF 5
+## Status: WP 4, ACF 4.3.8
 
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
