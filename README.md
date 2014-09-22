@@ -14,7 +14,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 * Create `.env` file from `.env.example`
 * Make a nice new database
 * Set environment variables in your new `.env` file
-  * Database name
+  1. Database name
   * Database user
   * Database password
   * Database host (eg `localhost`)
