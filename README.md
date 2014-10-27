@@ -1,6 +1,6 @@
 # Groundwork
 
-## Status: WP 4, ACF 5
+## Status: WP 4, ACF 4.3.8
 
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
@@ -12,7 +12,16 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 
 * `composer install`
 * Create `.env` file from `.env.example`
-* Set environment variables
+* Make a nice new database
+* Set environment variables in your new `.env` file
+  1. Database name
+  * Database user
+  * Database password
+  * Database host (eg `localhost`)
+  * Environment definition (eg `development`)
+  * Home URL (eg `http://growdigital.org`)
+  * WordPress site URL (eg `http://growdigital.org/wp`)
+  * Get your [Salts], add them to `.env`
 * Set [WordPress file permissions]
 * Run the WordPress install in a browser
 * Change `Site address (URL)` in `Settings > General`
@@ -25,7 +34,7 @@ Hopefully this may be useful to web developers who want a well organised, easy t
 * [Twelve Factor WordPress] 
 * [Using Composer with WordPress].
 
-
+[Salts]: https://api.wordpress.org/secret-key/1.1/salt
 [Roots.io]: http://roots.io/
 [bedrock]: https://github.com/roots/bedrock
 [Twelve Factor WordPress]: http://roots.io/twelve-factor-wordpress/
