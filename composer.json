@@ -22,7 +22,7 @@
   ],
   "require": {
     "fancyguy/webroot-installer": "1.1.0",
-    "growdigital/wp-groundforce": "0.1.0",
+    "themosis/theme": "1.0.1",
     "php": ">=5.3.0",
     "roots/soil": "3.0.1",
     "vlucas/phpdotenv": "v1.0.6",
