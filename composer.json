@@ -5,6 +5,10 @@
       "url": "http://wpackagist.org"
     },
     {
+      "type": "vcs",
+      "url": "https://github.com/growdigital/wp-groundforce"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress",
