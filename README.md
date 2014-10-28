@@ -1,6 +1,6 @@
 # Groundwork
 
-## Status: WP 4, ACF 4.3.8
+## Status: WP 4.0, ACF 4.3.9, Webmention 2.3, Soil 3.0.1, JetPack Markdown 3.1, Database Sync 0.3.1
 
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
