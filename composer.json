@@ -31,6 +31,7 @@
     "roots/soil": "3.0.1",
     "vlucas/phpdotenv": "v1.0.6",
     "wordpress": "4.0",
+    "wpackagist/akismet": "3.0.2",
     "wpackagist/advanced-custom-fields": "4.3.9",
     "wpackagist/database-sync": "0.3.1",
     "wpackagist/jetpack-markdown": "3.1",
