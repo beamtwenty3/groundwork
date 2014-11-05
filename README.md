@@ -1,4 +1,5 @@
 # Groundwork
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/growdigital/groundwork?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Status: WP 4.0, ACF 4.3.9, Webmention 2.3, Soil 3.0.1, JetPack Markdown 3.1, Database Sync 0.3.1
 
