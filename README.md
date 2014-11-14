@@ -6,8 +6,9 @@
 * WP 4.0
 * ACF 4.3.9
 * Akismet
-* Contact Form 7
 * CAPTCHA
+* Contact Form 7
+* TwentyFourteen theme
 
 A WordPress starter kit, based on the excellent work of [Roots.io]. 
 
