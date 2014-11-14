@@ -31,11 +31,13 @@
     "roots/soil": "3.0.1",
     "vlucas/phpdotenv": "v1.0.6",
     "wordpress": "4.0",
-    "wpackagist/akismet": "3.0.2",
-    "wpackagist/advanced-custom-fields": "4.3.9",
-    "wpackagist/database-sync": "0.3.1",
-    "wpackagist/jetpack-markdown": "3.1",
-    "wpackagist/webmention": "2.3.1",
+    "wpackagist-plugin/akismet": "3.0.2",
+    "wpackagist-plugin/advanced-custom-fields": "4.3.9",
+    "wpackagist-plugin/database-sync": "0.3.1",
+    "wpackagist-plugin/jetpack-markdown": "3.1",
+    "wpackagist-theme/twentyfourteen": "1.2",
+    "wpackagist-plugin/wp-piwik": "0.9.9.12",
+    "wpackagist-plugin/webmention": "2.3.1",
     "wp-cli/wp-cli": "v0.15.0"
   },
   "extra": {
